@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Best gym in India with expert trainers and flexible membership plans">    <title>FitPulse - Best Gym in India</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class='nav-container'>
+        <div id='nav-logo'>
+        <h1>FitPulse</h1>
+        </div>
+        <div class="hamburger" id="hamburger">☰</div>
+        <div class="nav-menu" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#membership">Membership</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#contact">Contact</a>
+            <a><button type='button' id='nav-btn'>Join Now</button></a>
+        </div>
+    </div>
+</nav>
+        <section id="home" class="hero">
+            <div class='hero-img'>  
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=600&fit=crop" alt="Gym Background" class="hero-image"></div>
+            <div class='hero-content'>
+            <h1 class="hero-title">Transform Your Body</h1>
+            <p class="hero-subtitle">Achieve Your Fitness Goals With Our Expert Trainers</p>
+            <button type='button' class='hero-btn'>Start Your Journey</button>
+            </div>
+        </section>
+    <section id="membership">
+    <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <p class="section-subtitle">Select the perfect membership plan for your fitness journey</p>
+                <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Basic</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                        <ul class="plan-features">
+                        <li> Gym Access</li>
+                        <li>8 AM - 6 PM</li>
+                        <li>Basic Equipment</li>
+                        <li class="unavailable"> Personal Trainer</li>
+                        <li class="unavailable"> Group Classes</li>
+                    </ul>
+                    <button class="btn ">Select Plan</button>
+                </div>
+
+                    <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">59</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                        <ul class="plan-features">
+                       <li>24/7 Gym Access</li>
+                        <li> All Equipment</li>
+                        <li>4 Free Classes/Month</li>
+                        <li> Personal Trainer (2x/month)</li>
+                        <li> Nutrition Consultation</li>
+                    </ul>
+                    <button class="btn-plan">Select Plan</button>
+                </div>
+        </div>
+    </section>
+    <section id="trainers">
+    <div class="container">
+            <h2 class="section-title">Meet Our Trainers</h2>
+            <p class="section-subtitle">Certified and experienced fitness professionals</p>
+
+                <div class="trainers-grid">
+
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop" alt="Trainer Alex">
+                        <div class="trainer-overlay">
+                            <p>Strength & Conditioning Specialist</p>
+                        </div>
+                    </div>
+                    <h3>Alex Johnson</h3>
+                    <p class="trainer-specialty">Strength & Cardio</p>
+                </div>
+                    <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=400&fit=crop" alt="Trainer Sarah">
+                        <div class="trainer-overlay">
+                            <p>Yoga & Flexibility Expert</p>
+                        </div>
+                    </div>
+                    <h3>Sarah Williams</h3>
+                    <p class="trainer-specialty">Yoga & Flexibility</p>
+                </div>
+                    <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=400&fit=crop" alt="Trainer Marcus">
+                        <div class="trainer-overlay">
+                            <p>Weight Loss & Nutrition Coach</p>
+                        </div>
+                    </div>
+                    <h3>Marcus Chen</h3>
+                    <p class="trainer-specialty">Weight Loss & Nutrition</p>
+                </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+        <h2>Contact Us</h2>
+        <p class="contact-subtitle">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+         <form class="contact-form" id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name"  placeholder="Your Name">
+                    <span id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
+                    <span id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    <span id="phoneError"></span>
+                </div>
+                    <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..."></textarea>                   
+                    <span id="messageError"></span>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+    </section>
+        <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>FitLife</h3>
+            <p>Your journey to a stronger, healthier life starts here.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <p>Email: info@fitlife.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Location: India</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    <p>&copy; 2026 FitLife. All Rights Reserved.</p>
+    </div>
+</footer>
+<button id="scrollTopBtn">↑</button>
+<script src='gym.js'></script>
+</body>
+</html>
