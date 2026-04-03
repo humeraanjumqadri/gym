@@ -58,7 +58,7 @@ Works smoothly on:
 
 🌐 Live Demo
 
-https://humeraanjumqadri.github.io/gym-website/
+https://humeraanjumqadri.github.io/gym/
 
 ---
 
