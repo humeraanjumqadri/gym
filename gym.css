@@ -59,25 +59,7 @@ body{
     display: flex;
     gap: 20px;
 }
-@media(max-width:768px){
-    .hamburger {
-        display: block;
-    }
-    .nav-menu {
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background: #1a1a1a;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem 0;
-        display: none;
-    }
-    .nav-menu.active {
-        display: block;
-    }
-}
+
 .nav-menu a{
     color: #fff;
     text-decoration: none; 
