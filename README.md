@@ -39,12 +39,15 @@ This project showcases a professional fitness landing page with smooth UI, respo
 
 📂 Project Structure
 
+```
 Gym-Website/
 │── index.html
 │── gym.css
 │── gym.js
 │── README.md
 ```
+
+---
 
 📱 Responsive Design
 
@@ -63,6 +66,7 @@ https://humeraanjumqadri.github.io/gym/
 ---
 
 👩‍💻 Author
+
 Humaira Anjum Qadri
 
 ---
